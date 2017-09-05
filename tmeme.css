@@ -50,7 +50,6 @@
     --popout: url("https://i.imgur.com/pkjN195.jpg");
     --testone: url("https://i.imgur.com/C5OiUoo.jpg");
     --streaming: url("https://i.imgur.com/4kmPHjn.jpg");
-    --custompicture: url("https://i.imgur.com/u7j5VaZ.jpg");
     --tweet: #4da7de;
         --dark-0: #424242;
     --dark-1: #383838;
@@ -261,6 +260,7 @@ body:before {
     background-position: center !important;
 }
 img[alt*=":regional_indicator_b:"],
+img[alt*=":b:"],
 img[alt*=":regional_indicator_o:"],
 img[alt*=":regional_indicator_i:"]{
         animation: boi 2s infinite;
@@ -278,8 +278,9 @@ img[alt*=":eight_spoked_asterisk:"] {
 img[alt*=":PALogo:"] {
     animation: bomb  2s infinite;
 }
+img[alt*=":stuck_out_tongue:"],
 img[alt*=":thinking:"] {
-    animation: wave 2s infinite;
+    animation: scare 2s infinite;
 }
 img[alt*=":bomb:"] {
     animation: bomb 2s infinite;
@@ -321,12 +322,12 @@ img[alt*=":sparkling_heart:"] {
     background-image: url(https://goo.gl/CaQFe2);
 }
 .container-iksrDt{
-    background-image: var(--custompicture); 
+    background-image: url("https://i.imgur.com/u7j5VaZ.jpg"); 
         background-size: cover !important;
     background-position: center !important;
 }
 .contentSelectedText-3j5CXt {
-    background-image: var(--custompicture); 
+    background-image: url("https://i.imgur.com/u7j5VaZ.jpg"); 
         background-size: cover !important;
     background-position: center !important;
 }
@@ -558,13 +559,11 @@ color: solid var(--custom);
     z-index: 1000000000000000000;
     pointer-events: none;
     animation: opacity 80ms ease;
-        background-image: var(--custompicture); 
+        background-image: url("https://i.imgur.com/u7j5VaZ.jpg"); 
         background-size: cover !important;
     background-position: center !important;
 }
-.tooltip::after {
-    visibility: hidden;
-}
+
 .tooltip.tooltip-brand {
     background-color: blue;
 }
@@ -690,7 +689,7 @@ color: solid var(--custom);
 }
 
 .new-messages-indicator.new-messages-indicator-mention{
-        background-image: var(--custompicture); 
+        background-image: url("https://i.imgur.com/u7j5VaZ.jpg"); 
         background-size: cover !important;
     background-position: center !important;
 }
@@ -714,7 +713,7 @@ background-color:var(--custom);
     font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
     padding: 6px 10px;
     line-height: 14px;
-        background-image: var(--custompicture); 
+        background-image: url("https://i.imgur.com/u7j5VaZ.jpg"); 
         background-size: cover !important;
     background-position: center !important;
 }
@@ -760,7 +759,7 @@ color: black;
 }
 
 .headerStreaming-3F-wjT {
-    background-image: var(--custompicture);
+    background-image: url("https://i.imgur.com/u7j5VaZ.jpg");
         background-size: auto !important;
     background-position: initial !important;
 
@@ -995,7 +994,7 @@ body::after,
     cursor: default;
     opacity: 1;
     background: rgb(232, 21, 21);
-    background-image: var(--custompicture);
+    background-image: url("https://i.imgur.com/u7j5VaZ.jpg");
     background-size: cover !important;
     background-position: center !important;
 
@@ -1008,7 +1007,7 @@ body::after,
     font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
     padding: 6px 10px;
     line-height: 14px;
-        background-image: var(--custompicture);
+        background-image: url("https://i.imgur.com/u7j5VaZ.jpg");
     background-size: cover !important;
     background-position: center !important;
 }
@@ -1027,7 +1026,7 @@ body::after,
     -ms-flex-negative: 0;
     flex-shrink: 0;
     border-bottom: 1px solid #fff;
-    background-image: var(--custompicture);
+    background-image: url("https://i.imgur.com/u7j5VaZ.jpg");
     background-size: cover !important;
     background-position: center !important;
 }
@@ -1047,7 +1046,7 @@ body::after,
 .header,
 .inner,
 .content {
-    background-image: var(--custompicture);
+    background-image: url("https://i.imgur.com/u7j5VaZ.jpg");
     background-size: cover !important;
     background-position: center !important;
     animation:   2s infinite;
@@ -1055,7 +1054,7 @@ body::after,
 
 .avatar-small{
     border-radius: 0px;
-    background-image: var(--custompicture);
+    background-image: url("https://i.imgur.com/u7j5VaZ.jpg");
     background-size: cover !important;
     background-position: center !important;
 }
@@ -1101,7 +1100,7 @@ body::after,
     background-color: transparent;
 }
 .popout-menu {
-        background-image: var(--custompicture);
+        background-image: url("https://i.imgur.com/u7j5VaZ.jpg");
     background-size: cover !important;
     background-position: center !important;
     color: #fff;
@@ -1138,7 +1137,7 @@ body::after,
     color: white
 }
 .guilds-wrapper .guilds {
-        background-image: var(--custompicture);
+        background-image: url("https://i.imgur.com/u7j5VaZ.jpg");
     background-size: cover !important;
     background-position: center !important;
 }
@@ -1181,7 +1180,7 @@ body::after,
      }
 
 .small-popout-box {
-        background-image: var(--custompicture);
+        background-image: url("https://i.imgur.com/u7j5VaZ.jpg");
     background-size: cover !important;
     background-position: center !important;
 }
@@ -1196,13 +1195,13 @@ body::after,
 }
 
 .theme-dark .invite-button.join {
-   background-image: var(--custompicture);
+   background-image: url("https://i.imgur.com/u7j5VaZ.jpg");
        background-size: cover !important;
     background-position: center !important;
 }
 .theme-dark .invite-button,
 .theme-dark .invite-button:hover  {
-   background-image: var(--custompicture);
+   background-image: url("https://i.imgur.com/u7j5VaZ.jpg");
        background-size: cover !important;
     background-position: center !important;
 }
@@ -1221,43 +1220,43 @@ background-color: transparent;
 
 .channel-members {
     max-width: 240px;
-    background-image: var(--custompicture) !important;
+    background-image: url("https://i.imgur.com/u7j5VaZ.jpg") !important;
 }
 
 .chat>.title-wrap.title-wrap-dark {
     border-bottom: 1px solid rgba(0,0,0,.2);
     -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.06);
     box-shadow: 0 1px 0 rgba(0,0,0,.06);
-	 background-image: var(--custompicture) !important;
-}	
+     background-image: var(--custompicture) !important;
+}   
 
 
 
 .chat .messages {
     margin: 0;
     overflow-x: hidden;
-	background-image: var(--custompicture) !important;
+    background-image: url("https://i.imgur.com/u7j5VaZ.jpg")!important;
 }
 
 .search-bar {
-    background-image: var(--custompicture) !important;
+    background-image: url("https://i.imgur.com/u7j5VaZ.jpg") !important;
 
 }
 .private-channels .channel.selected a {
     color: #fff;
-    background-image: var(--custompicture) !important;
+    background-image: url("https://i.imgur.com/u7j5VaZ.jpg") !important;
 }
 
 .header-1tSljs {
-   background-image: var(--custompicture) !important;
+   background-image: url("https://i.imgur.com/u7j5VaZ.jpg") !important;
 }
 
 .theme-dark .chat form .typing {
-     background-image: var(--custompicture) !important;
+     background-image: url("https://i.imgur.com/u7j5VaZ.jpg") !important;
 }
 
 .scroller-fzNley {
-background-image: var(--custompicture) !important;
+background-image: url("https://i.imgur.com/u7j5VaZ.jpg") !important;
 }
 
 .scroller-wrap .scroller {
@@ -1265,11 +1264,11 @@ color : blue;
 }
 
 .theme-dark #friends .friends-header {
-background-image: var(--custompicture) !important;
+background-image: url("https://i.imgur.com/u7j5VaZ.jpg") !important;
 }
 
 .theme-dark #friends .friends-table .friends-table-header {
-background-image: var(--custompicture) !important;
+background-image: url("https://i.imgur.com/u7j5VaZ.jpg")!important;
 }
 
 .theme-dark #friends {
@@ -1277,53 +1276,53 @@ background-image: var(--custompicture) !important;
 }
 
 .ui-standard-sidebar-view .bda-slist li:nth-child(odd) {
-background-image: var(--custompicture) !important;
+background-image: url("https://i.imgur.com/u7j5VaZ.jpg") !important;
 }
 .ui-standard-sidebar-view .bda-slist li {
-background-image: var(--custompicture) !important;
+background-image: url("https://i.imgur.com/u7j5VaZ.jpg") !important;
 }
 
 .content-region .CodeMirror, .content-region .CodeMirror-scroll {
-background-image: var(--custompicture) !important;
+background-image: url("https://i.imgur.com/u7j5VaZ.jpg") !important;
 }
 
 .content-region #bd-customcss-attach-controls, #bd-customcss-detach-container #bd-customcss-attach-controls {
-background-image: var(--custompicture) !important;
+background-image: url("https://i.imgur.com/u7j5VaZ.jpg") !important;
 }
 .CodeMirror-linenumber {
-background-image: var(--custompicture) !important;
+background-image: url("https://i.imgur.com/u7j5VaZ.jpg") !important;
 }
 
 .CodeMirror-gutter {
-background-image: var(--custompicture) !important;
+background-image: url("https://i.imgur.com/u7j5VaZ.jpg") !important;
 }
 
 .ui-standard-sidebar-view #bd-customcss-attach-controls button, .bd-detached-css-editor #bd-customcss-attach-controls button {
-background-image: var(--custompicture) !important;
+background-image: url("https://i.imgur.com/u7j5VaZ.jpg") !important;
 }
 .chat .divider>span {
-background-image: var(--custompicture) !important;
+background-image: url("https://i.imgur.com/u7j5VaZ.jpg") !important;
 }
 
 #friends .friends-table .friends-table-body {
-background-image: var(--custompicture) !important;
+background-image: url("https://i.imgur.com/u7j5VaZ.jpg") !important;
 }
 
 #bd-settingspane-container .scroller-wrap .scroller {
     display: flex;
-	background-image: var(--custompicture) !important;
+    background-image: url("https://i.imgur.com/u7j5VaZ.jpg") !important;
 }
 
 .body-3rkFrF {
-background-image: var(--custompicture) !important;
+background-image: url("https://i.imgur.com/u7j5VaZ.jpg") !important;
 }
 
 .footer-2J5zqP {
-background-image: var(--custompicture) !important;
+background-image: url("https://i.imgur.com/u7j5VaZ.jpg") !important;
 }
 
 .quick-message {
-background-image: var(--custompicture) !important;
+background-image: url("https://i.imgur.com/u7j5VaZ.jpg") !important;
 }
 
 .channel-text-area-default [class*="inner-"],  /* The chat bar */
@@ -1331,7 +1330,7 @@ background-image: var(--custompicture) !important;
 .channel-text-area-default [class*="autocompleteInner-"], /* Auto complete container */
 .channel-text-area-default [class*="selectorSelected-"] {
  /* Selected item in auto complete */
-     background-image: var(--custompicture);
+     background-image: url("https://i.imgur.com/u7j5VaZ.jpg");
     background-size: cover !important;
     background-position: center !important;
     background-color: rgba(0,0,0,.6); 
@@ -1339,107 +1338,69 @@ background-image: var(--custompicture) !important;
 .channel-text-area-default [class*="textArea-"], /* Text in chat bar */
 .channel-text-area-default [class*="selector-"] [class*="marginLeft8-"] { 
     /* User names in auto complete */
-        background-image: var(--custompicture);
+        background-image: url("https://i.imgur.com/u7j5VaZ.jpg");
     background-size: cover !important;
     background-position: center !important;
     color: white;
      }
-	 
+     
 .flex-spacer {
     -webkit-box-flex: 1;
     -ms-flex: 1;
     flex: 1;
     overflow: hidden;
-	background-image: var(--custompicture) !important;
+    background-image: url("https://i.imgur.com/u7j5VaZ.jpg") !important;
 }
 
-.chat .messages::-webkit-scrollbar-track
-{
-    -webkit-box-shadow: inset 0 0 6px var(--custompicture);
+.chat .messages::-webkit-scrollbar-track{
+    -webkit-box-shadow: inset 0 0 6px url("https://i.imgur.com/u7j5VaZ.jpg");
     border-radius: 10px;
-   background-color: var(--custompicture) !important;
+   background-color: var(--custom) !important;
 border: 1px solid white;
  }
 
-.chat .messages::-webkit-scrollbar
-{
+.chat .messages::-webkit-scrollbar{
     width: 15px !important;
-   background-color: var(--custompicture) !important;
+   background-color: var(--custom) !important;
     border-radius: 10px;
-	border: 1px solid white;
+    border: 1px solid white;
 }
 
 
-.chat .messages::-webkit-scrollbar-thumb
-{
+.chat .messages::-webkit-scrollbar-thumb{
     border-radius: 10px;
-   background-color: var(--custompicture) !important;
+   background-color: var(--custom) !important;
      border: 1px solid white;
 }
 
-/*Mic*/
-.container-iksrDt .horizontal-2BEEBe div button[style='background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij4KICA8ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPgogICAgPHJlY3Qgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0Ii8+CiAgICA8cGF0aCBmaWxsPSIjRkZGRkZGIiBkPSJNNyw0LjQ0MDg5MjFlLTE2IEM4LjY1Njg1NDI1LDAgMTAsMS4zNDMxNDU3NSAxMCwzIEwxMCw5IEMxMCwxMC42NTY4NTQyIDguNjU2ODU0MjUsMTIgNywxMiBDNS4zNDMxNDU3NSwxMiA0LDEwLjY1Njg1NDIgNCw5IEw0LDMgQzQsMS4zNDMxNDU3NSA1LjM0MzE0NTc1LDQuNDQwODkyMWUtMTYgNywwIEw3LDQuNDQwODkyMWUtMTYgWiBNMTQsOSBDMTQsMTIuNTMgMTEuMzksMTUuNDQgOCwxNS45MyBMOCwxOSBMNiwxOSBMNiwxNS45MyBDMi42MSwxNS40NCAwLDEyLjUzIDAsOSBMMiw5IEMyLDExLjc2MTQyMzcgNC4yMzg1NzYyNSwxNCA3LDE0IEM5Ljc2MTQyMzc1LDE0IDEyLDExLjc2MTQyMzcgMTIsOSBMMTQsOSBMMTQsOSBaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg1IDMpIi8+CiAgPC9nPgo8L3N2Zz4K");']{
-    background: url(https://cdn.rawgit.com/NFLD99/9b216f3a3cde1f5cead4a6d347850a07/raw/4ca4535d8f0b36724d781e4df7fe356a9a8b3366/mic2.svg)!important;
-    background-size:60%!important;
-    background-position:50%!important;
-    background-repeat:no-repeat!important;
-background-color: var(--custompicture) !important;   
-}
-
-/*Mic disabled/muted*/
-.container-iksrDt .horizontal-2BEEBe div button[style='background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij4KICA8ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIHRyYW5zZm9ybT0ibWF0cml4KC0xIDAgMCAxIDI0IDApIj4KICAgIDxyZWN0IHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIvPgogICAgPGcgdHJhbnNmb3JtPSJtYXRyaXgoLTEgMCAwIDEgMjEgMykiPgogICAgICA8cGF0aCBmaWxsPSIjRkZGRkZGIiBkPSJNMTYsOSBDMTYsMTAuMTkgMTUuNjYsMTEuMyAxNS4xLDEyLjI4IEwxMy44NywxMS4wNSBDMTQuMTQsMTAuNDMgMTQuMyw5Ljc0IDE0LjMsOSBMMTYsOSBMMTYsOSBaIE0xMiw5LjE2IEw2LDMuMTggTDYsMyBDNiwxLjM0MzE0NTc1IDcuMzQzMTQ1NzUsNC40NDA4OTIxZS0xNiA5LDAgQzEwLjY1Njg1NDIsMCAxMiwxLjM0MzE0NTc1IDEyLDMgTDEyLDkgTDEyLDkuMTYgTDEyLDkuMTYgWiBNMTIuNTQsMTQuODEgQzExLjc3LDE1LjI3IDEwLjkxLDE1LjU4IDEwLDE1LjcyIEwxMCwxOSBMOCwxOSBMOCwxNS43MiBDNC43MiwxNS4yMyAyLDEyLjQxIDIsOSBMMy43LDkgQzMuNywxMiA2LjI0LDE0LjEgOSwxNC4xIEM5LjgxLDE0LjEgMTAuNiwxMy45MSAxMS4zMSwxMy41OCBMOS42NSwxMS45MiBMOSwxMiBDNy4zNDMxNDU3NSwxMiA2LDEwLjY1Njg1NDIgNiw5IEw2LDguMjggTDEyLjU0LDE0LjgxIFoiLz4KICAgICAgPHBvbHlnb24gZmlsbD0iI0YwNDc0NyIgcG9pbnRzPSIxLjI3IDEgMTggMTcuNzMgMTYuNzMgMTkgMCAyLjI3Ii8+CiAgICA8L2c+CiAgPC9nPgo8L3N2Zz4K");']{
-    background: url(https://ditmcouk.ipage.com/noottech/discord-icons/green/green-muted.svg)!important;
-    background-size:60%!important;
-    background-position:50%!important;
-    background-repeat:no-repeat!important;
-background-color: var(--custompicture) !important;  
-}
-
-/*Audio*/
-.container-iksrDt .horizontal-2BEEBe div button[style='background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij4KICA8ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPgogICAgPHJlY3Qgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0Ii8+CiAgICA8cGF0aCBmaWxsPSIjRkZGRkZGIiBkPSJNMywxMSBDMyw2IDcsMiAxMiwyIEwxMiw0IEM4LjEzNDAwNjc1LDQgNSw3LjEzNDAwNjc1IDUsMTEgTDUsMTMgTDksMTMgTDksMjEgTDYsMjEgQzQuMzQzMTQ1NzUsMjEgMywxOS42NTY4NTQyIDMsMTggTDMsMTEgWiBNMjEsMTEgTDIxLDE4IEMyMSwxOS42NTY4NTQyIDE5LjY1Njg1NDIsMjEgMTgsMjEgTDE1LDIxIEwxNSwxMyBMMTksMTMgTDE5LDExIEMxOSw3LjEzNDAwNjc1IDE1Ljg2NTk5MzIsNCAxMiw0IEwxMiwyIEMxNywyIDIxLDYgMjEsMTEgWiIvPgogIDwvZz4KPC9zdmc+Cg==");']{
-    background-image: url(https://cdn.rawgit.com/NFLD99/f62a29bdd1002f41e596fe0d1fedbfb5/raw/cf014acceff7577a665260120ae8c2f9512f11b5/deafen.svg) !important;
-    background-size:60%!important;
-    background-position:50%!important;
-    background-repeat:no-repeat!important;
-background-color: var(--custompicture) !important;  
-}
-
-/*Audio disabled/deafened*/
-.container-iksrDt .horizontal-2BEEBe div button[style='background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij4KICA8ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPgogICAgPHBhdGggZmlsbD0iI0ZGRkZGRiIgZD0iTTE3LjQzLDUuODQgQzE3LjgsNi44MiAxOCw3Ljg5IDE4LDkgTDE4LDE3IEMxOCwxOC42NTY4NTQyIDE2LDE5IDE2LDE5IEwxMiwxOSBMMTIsMTEuMjcgTDYsMTcuMjcgTDYsMTkgTDQuMjcsMTkgTDEuNzcsMjEuNSBMMTcuNDMsNS44NCBaIE05LDAgQzExLjUzLDAgMTMuODIsMS4wNCAxNS40NSwyLjcyIEwxNC4wNCw0LjE0IEMxMi43NywyLjgyIDExLDIgOSwyIEM1LjEzNDAwNjc1LDIgMiw1LjEzNDAwNjc1IDIsOSBMMiwxMSBMNiwxMSBMNiwxMi4xOCBMMC41LDE3LjY3IEMwLjE5LDE3LjE5IDAsMTYuNjIgMCwxNiBMMCw5IEMtMS4zMzIyNjc2M2UtMTUsNC4wMjk0MzcyNSA0LjAyOTQzNzI1LDEuMzMyMjY3NjNlLTE1IDksNC40NDA4OTIxZS0xNiBMOSwwIFogTTE2LDExIEwxNiw5IEMxNiw4LjQ2IDE1Ljk0LDcuOTQgMTUuODMsNy40NCBMMTIuMjcsMTEgTDE2LDExIFoiIHRyYW5zZm9ybT0ibWF0cml4KC0xIDAgMCAxIDIxIDIpIi8+CiAgICA8cG9seWdvbiBmaWxsPSIjRjA0NzQ3IiBwb2ludHM9IjEuMjcgMTkuNSAwIDE4LjIyIDE3LjcyIC41IDE5IDEuNzciIHRyYW5zZm9ybT0ibWF0cml4KC0xIDAgMCAxIDIwIDQpIi8+CiAgPC9nPgo8L3N2Zz4K");']{
-    background-image: url(https://ditmcouk.ipage.com/noottech/discord-icons/green/green-deafen.svg) !important;
-    background-size:60%!important;
-    background-position:50%!important;
-    background-repeat:no-repeat!important;
-	background-color: var(--custompicture) !important; 
-}
 
 .container-iksrDt .button-1aU9q1 svg {
-	display: block;
+    display: block;
     width: 18px;
     height: 18px;
     cursor: pointer;
-	position: relative;
+    position: relative;
     background-image: url(https://cdn.rawgit.com/NFLD99/d05ecfe9f9032793292526b8d2dedf77/raw/05175dcdf7cbdfda75f4fecbe583512d71a9ce66/Settings.svg)!important;
-	background-size:100%!important;
+    background-size:100%!important;
     background-position:80%!important;
     background-repeat:no-repeat!important;
-	fill: transparent;
-	background-color: var(--custompicture) !important; 
+    fill: transparent;
+    background-color: var(--custom) !important; 
 }
 .buttonDisconnect-3xZpYL {
   background-image: url(https://cdn.rawgit.com/NFLD99/8f34a7b2fa021c37a88a34e0506e5f8e/raw/b05fb27549370e73d0453cd33c12f5a60e9f276e/Exit.svg)!important;
-background-color: var(--custompicture) !important; 
+background-color: var(--custom) !important; 
 }
 
 [class*="buttonInfo"] {
     background-image: url(https://cdn.rawgit.com/NFLD99/e80c340c4669c64a41c563d7b5051bbf/raw/04aef4a676789aa4597d4af669f4831e207eee6e/Info.svg)!important;
-	
-	background-size:70%!important;
+    
+    background-size:70%!important;
 }
 .button-3WJ5FX {
-background-color: var(--custompicture) !important; 
+background-color: var(--custom) !important; 
 }
 
 .theme-dark.context-menu .item {
-color: var(--custompicture) !important; 
+color: var(--custom) !important; 
 }
