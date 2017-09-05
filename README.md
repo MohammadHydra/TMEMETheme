@@ -6,7 +6,9 @@ People on [BD Discord](https://discord.gg/0Tmfo5ZbORCRqbAd) & [BD Discord 2](htt
 [SneaKy#9803](https://discord.gg/nfPu2EG)
 
 # Custom Embed Icon 
-![](https://goo.gl/3mW85S)
+![](https://goo.gl/uQQ7tH)
+# Animated Emotes
+![](https://i.imgur.com/psACaXY.gif)
 
 # Different Look For Discord ![](https://goo.gl/HaZsLR)
 
