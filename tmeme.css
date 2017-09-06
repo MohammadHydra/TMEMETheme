@@ -1,8 +1,6 @@
 @import url(https://rawgit.com/TheBaconSpace/SkynetTheme/master/code.css);
 
 
-
-
 :root {
     --discordgrey: #99AAB5;
     --discordblack: #2C2F33;
@@ -13,7 +11,7 @@
     --s-light: rgba(0,0,0,.54);
     --h-light: rgba(0,0,0,.38);
     --d-light: rgba(0,0,0,.12);
-     --custom: #3D5AFE ;
+     --custom: #3D5AFE !important ;
     --p-dark: rgba(255,255,255,1);
     --s-dark: rgba(255,255,255,.70);
     --h-dark: rgba(255,255,255,.50);
@@ -50,6 +48,7 @@
     --popout: url("https://i.imgur.com/pkjN195.jpg");
     --testone: url("https://i.imgur.com/C5OiUoo.jpg");
     --streaming: url("https://i.imgur.com/4kmPHjn.jpg");
+    --custompicture: url("https://i.imgur.com/u7j5VaZ.jpg");
     --tweet: #4da7de;
         --dark-0: #424242;
     --dark-1: #383838;
@@ -368,8 +367,8 @@ img[alt*=":sparkling_heart:"] {
     background-size: cover !important;
     background-position: center !important;
 }
-.mentioned .mention:hover {
-    color: var(--custom)
+.mention{
+    background-color: black
 }
 div.message-group-blocked-btn, .theme-light .messages-wrapper .messages .message-group-blocked, .theme-light .messages-wrapper .messages .message-group-blocked.revealed{
     display:none!important;
@@ -619,6 +618,21 @@ color: solid var(--custom);
 }
 .avatar-profile[style*="173449041181409281"]:after {
     content: var(--name)" Creator";
+    font-size: 13px;
+    text-align: left;
+    top: 50%;
+    position: absolute;
+    margin: 11px 0 0 175px;
+    width: 170px;
+    color: black
+     border-style: solid;
+    background-size: cover !important;
+    background-position: center !important;
+
+}
+
+.avatar-profile[style*="131137066321838080"]:after {
+    content: var(--name)" Friends";
     font-size: 13px;
     text-align: left;
     top: 50%;
@@ -1176,7 +1190,7 @@ body::after,
 .channel-text-area-default [class*="textArea-"], /* Text in chat bar */
 .channel-text-area-default [class*="selector-"] [class*="marginLeft8-"] { 
     /* User names in auto complete */
-    color: white;
+     background-color: var(--custom) 
      }
 
 .small-popout-box {
@@ -1255,12 +1269,9 @@ background-color: transparent;
      background-image: url("https://i.imgur.com/u7j5VaZ.jpg") !important;
 }
 
-.scroller-fzNley {
-background-image: url("https://i.imgur.com/u7j5VaZ.jpg") !important;
-}
 
 .scroller-wrap .scroller {
-color : blue;
+ color: var(--custom) 
 }
 
 .theme-dark #friends .friends-header {
@@ -1310,9 +1321,12 @@ background-image: url("https://i.imgur.com/u7j5VaZ.jpg") !important;
 
 #bd-settingspane-container .scroller-wrap .scroller {
     display: flex;
-    background-image: url("https://i.imgur.com/u7j5VaZ.jpg") !important;
+    background-color: var(--custom) !important;
 }
 
+.scroller-fzNley {
+    background-image: url("https://i.imgur.com/u7j5VaZ.jpg")  !important;
+}
 .body-3rkFrF {
 background-image: url("https://i.imgur.com/u7j5VaZ.jpg") !important;
 }
@@ -1333,7 +1347,7 @@ background-image: url("https://i.imgur.com/u7j5VaZ.jpg") !important;
      background-image: url("https://i.imgur.com/u7j5VaZ.jpg");
     background-size: cover !important;
     background-position: center !important;
-    background-color: rgba(0,0,0,.6); 
+    background-color: var(--custom) ; 
 }
 .channel-text-area-default [class*="textArea-"], /* Text in chat bar */
 .channel-text-area-default [class*="selector-"] [class*="marginLeft8-"] { 
@@ -1341,7 +1355,7 @@ background-image: url("https://i.imgur.com/u7j5VaZ.jpg") !important;
         background-image: url("https://i.imgur.com/u7j5VaZ.jpg");
     background-size: cover !important;
     background-position: center !important;
-    color: white;
+    color: var(--discordwhite) ;
      }
      
 .flex-spacer {
@@ -1385,7 +1399,7 @@ border: 1px solid white;
     background-position:80%!important;
     background-repeat:no-repeat!important;
     fill: transparent;
-    background-color: var(--custom) !important; 
+    background-color: var(--custom); 
 }
 .buttonDisconnect-3xZpYL {
   background-image: url(https://cdn.rawgit.com/NFLD99/8f34a7b2fa021c37a88a34e0506e5f8e/raw/b05fb27549370e73d0453cd33c12f5a60e9f276e/Exit.svg)!important;
@@ -1398,9 +1412,17 @@ background-color: var(--custom) !important;
     background-size:70%!important;
 }
 .button-3WJ5FX {
-background-color: var(--custom) !important; 
+background-color: var(--custom); 
 }
 
 .theme-dark.context-menu .item {
-color: var(--custom) !important; 
+color: var(--custom) ; 
+}
+
+
+.channel-members .member:hover {
+background-color: var(--custom);
+}
+.channel-members .member:hover, .channel-members .popout-open {
+    background: rgba(49, 42, 42, 0.34) !important;
 }
