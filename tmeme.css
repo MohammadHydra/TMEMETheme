@@ -1186,14 +1186,32 @@ body::after,
 .channel-text-area-default [class*="autocompleteInner-"], /* Auto complete container */
 .channel-text-area-default [class*="selectorSelected-"] {
  /* Selected item in auto complete */
-    background-color: rgba(0,0,0,.6); 
+ background-color: transparent;
+     color: var(--discordwhite)
+    background-size: cover !important;
+    background-position: center !important;
+    background-color: var(--custom) ; 
 }
-.channel-text-area-default [class*="textArea-"], /* Text in chat bar */
+.theme-dark .contentTitle-sL6DrN {
+    color: var(--discordwhite)
+}
+.channel-text-area-default [class*="textArea-"]{
+    background-color: transparent;
+    color: var(--discordwhite)
+ /* Text in chat bar */
+}
 .channel-text-area-default [class*="selector-"] [class*="marginLeft8-"] { 
     /* User names in auto complete */
-     background-color: var(--custom) 
+background-color: transparent;
+    background-size: cover !important;
+    background-position: center !important;
+    color: var(--discordwhite) ;
      }
-
+     
+     .theme-dark .description-YnaVYa, .theme-dark .descriptionUsername-1quCGz,
+     .theme-dark .descriptionDiscriminator-3KCIMj {
+    color: var(--discordwhite);
+}
 .small-popout-box {
         background-image: url("https://i.imgur.com/u7j5VaZ.jpg");
     background-size: cover !important;
