@@ -367,8 +367,9 @@ img[alt*=":sparkling_heart:"] {
     background-size: cover !important;
     background-position: center !important;
 }
-.mention{
-    background-color: black
+.mention {
+    cursor: pointer;
+    color: #fff;
 }
 div.message-group-blocked-btn, .theme-light .messages-wrapper .messages .message-group-blocked, .theme-light .messages-wrapper .messages .message-group-blocked.revealed{
     display:none!important;
