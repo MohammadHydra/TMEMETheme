@@ -325,7 +325,9 @@ img[alt*=":sparkling_heart:"] {
 /* Animated Emojis */
 
 
-
+.guilds-wrapper .guilds .friends-icon{
+    background-color: var(--custom);
+}
 
 .embed .embed-video-actions .embed-video-actions-inner {
     background: var(--discordwhite);
