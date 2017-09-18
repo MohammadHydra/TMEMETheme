@@ -263,7 +263,35 @@ body:before {
     background-position: center !important;
 }
 
-
+.channel-members .member:hover .status.status-online,
+.channel-members .member.popout-open .status.status-online {
+    border-color: #43b581 !important
+}
+.channel-members .member:hover .status.status-idle,
+.channel-members .member.popout-open .status.status-idle {
+    border-color: #faa61a !important
+}
+.channel-members .member:hover .status.status-dnd,
+.channel-members .member.popout-open .status.status-dnd {
+    border-color: #f04747 !important
+}
+.channel-members .member:hover .status.status-offline,
+.channel-members .member.popout-open .status.status-offline {
+    border-color: #636b75 !important
+}
+.channel-members .member:hover .status-streaming.status,
+.channel-members .member.popout-open .status-streaming.status {
+    border-color: #593695 !important
+}
+.channel-members .member.popout-open .status.status-typing,
+.channel-members .member:hover .status.status-typing {
+    background-color: rgba(0, 0, 0, 0.4) !important;
+}
+.channel-members .member.popout-open .status.status-typing .spinner .spinner-inner,
+.channel-members .member:hover .status.status-typing .spinner .spinner-inner {
+    left: 1px !important;
+    top: 1px !important;
+}
 
 /* NSFW  Button*/
 .actionRed-sT3Bw5 {
