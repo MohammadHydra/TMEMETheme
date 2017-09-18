@@ -1,5 +1,7 @@
 //META{"name":"TMEME","description":"Theme","author":"Bacon_Space","version":"Theme"}*//{}
+
 @import url(https://rawgit.com/AlexFlipnote/Discord_Theme/master/assets/highlightJS.css);
+
 @import url(https://rawgit.com/TheBaconSpace/SkynetTheme/master/code.css);
 
 
@@ -241,6 +243,15 @@
 @-ms-keyframes spin {
 0% { -ms-transform: rotate(0deg);}
 100% { -ms-transform: rotate(360deg);}
+}
+/* Displays `Test` Better */
+.theme-dark .message-group .comment .markup code.inline, .theme-dark .message-group .comment .markup pre code {
+        display: block;
+    font-size: 10pt;
+    overflow-y: hidden !important;
+    background: #1D1F21 !important;
+    color: #78D69E !important;
+    padding: 0.5em;
 }
 body:before {
     content: "\f015\ Thanks for using "var(--name);
