@@ -4,7 +4,7 @@ Helpers
 People on [BD Discord](https://discord.gg/0Tmfo5ZbORCRqbAd) & [BD Discord 2](https://discord.gg/2HScm8j)
 # Contributor's 
 [SneaKy#9803](https://discord.gg/nfPu2EG) 
-[BakedPVP#9516](https://www.twitchcord.com)
+[BakedPVP#9516](http://www.twitchcord.com)
 
 # Custom Embed Icon 
 ![](https://goo.gl/uQQ7tH)
