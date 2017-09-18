@@ -1,6 +1,6 @@
 # TMEMETheme
-Made By [Bacon_Space#1756](https://discord.me/bacon_space)  [![Discord](https://img.shields.io/discord/95608213499555840.svg)](https://discord.me/bacon_space)
-Helpers 
+Made By [Bacon_Space#1756](https://discord.me/bacon_space)  ![Discord](https://img.shields.io/discord/95608213499555840.svg)(https://discord.me/bacon_space)
+# Helpers 
 People on [BD Discord](https://discord.gg/0Tmfo5ZbORCRqbAd) & [BD Discord 2](https://discord.gg/2HScm8j)
 # Contributor's 
 [SneaKy#9803](https://discord.gg/nfPu2EG) 
